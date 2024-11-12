@@ -1,0 +1,39 @@
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: grey;
+    position: relative;
+    left: 0;
+    animation-name: circle;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+   
+}
+@keyframes circle{
+    0%{
+    background-color:blue ;
+     left: 0px;
+     top: 0px;
+    }
+    25%{
+        background-color: red;
+        left: 500px;
+     top: 0px;
+    
+    }
+    50%{
+        background-color:palevioletred ;
+     left: 500px;
+     top: 500px;
+    }
+    75%{
+        background-color:black ;
+     top: 500px;
+     left: 0;
+    }
+    100%{
+        background-color:orange ;
+     top: 0;
+    }
+}
